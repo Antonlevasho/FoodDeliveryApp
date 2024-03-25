@@ -13,7 +13,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .red
+        view.backgroundColor = AppColors.grey
         
         let label = UILabel()
         view.addSubview(label)
@@ -25,7 +25,7 @@ class ViewController: UIViewController {
         label.rightAnchor.constraint(equalTo: view.rightAnchor, constant: 20).isActive = true
         
         label.font = .Roboto.thinItalic.size(of: 40)
-        label.textColor = .white
+        label.textColor = AppColors.accentOrange
         
     }
     
